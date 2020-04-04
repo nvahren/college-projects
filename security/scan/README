@@ -1,0 +1,13 @@
+Nathan Vahrenberg
+CSE 40567 Computer Security
+31 March 2016
+
+Homework 6
+
+Source code is under src/
+Compile with 'make' or 'make debug' for verbose output
+run with $ sudo ./syn_scan [interface] [IPv4 address] [start port] [end port]
+
+The file scan.txt is the output of running the scanner against 10.0.2.15 on the 'lo' 
+interface from ports 1 to 1024 on my Ubuntu 14.04 VM, which netstat confirmed had
+one open port (22). No entries appeared in /var/log/auth.log during the scan.

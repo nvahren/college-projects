@@ -1,0 +1,2 @@
+Starting scan of 10.0.2.15 from port 1 to 1024
+Port 22 open

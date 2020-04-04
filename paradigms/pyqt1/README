@@ -1,0 +1,9 @@
+Nathan Vahrenberg
+CSE 30332 Programming Paradigms
+PyQt Assignment
+2 March 2016
+
+usage:
+	$ python movies.py
+
+The GUI can be invoked with the above command. It will present a window with controls on the left and output on the right. The controls include an "Up" and "Down" button to send ratings of "5" and "1," respectively. The menu bar includes a "Close" function under "File," and a "View User" and "Change User" function under "User." The "View User" function will present a dialog with the user's basic info, and the "Change User" function presents a dialog that allows the user to enter a new uid (if the desired uid is not valid, the program will present an error message). When the user rates a movie up or down, or when the user switches uid's, any new infomation will be sent to the server, and a new movie recommendation will be loaded.

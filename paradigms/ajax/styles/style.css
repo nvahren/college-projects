@@ -1,0 +1,18 @@
+/*
+Nathan Vahrenberg
+CSE30332 Programming Paradigms
+AJAX
+8 April 2016
+*/
+
+div.movie_div {
+	float: left;
+	text-align: center;
+}
+
+div.button_div {
+	float: left;
+	margin-top: 200px;
+	margin-left: 25px;
+	margin-right: 25px;
+}

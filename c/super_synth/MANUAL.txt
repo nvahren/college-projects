@@ -1,0 +1,52 @@
+User Manual for "super_synth.c"
+
+
+The program "super_synth.c" uses many of the same inputs as Lab 8's "piano.c" 
+and "synth.c."  However, "super_synth.c" no longer supports inputting notes, 
+tempo changes, etc. from the command line and requires the user to create a 
+separate text file such as "example.music" to contain their inputs.  Once 
+the user has his or her input file, all he or she has to do is use the 
+following execution command to generate a .wav file with their song:
+
+./super_synth example.music example.wav
+
+Note that the first filename is that of the input file and the second 
+filename becomes the name of the .wav file.  Also note that the user can 
+change "example.wav" to any other file name such as "example2.wav" 
+to generate a new copy of his or her song.    
+
+
+Valid Inputs:
+
+a	A-flat
+A	A
+b	B-flat
+B	B
+C	C
+d	D-flat
+D	D
+e	E-flat
+E	E
+F	F
+g	G-flat
+G	G
+.	Rest (silence) for the length of the current note
++	Play all following notes 1 octave higher
+-	Play all following notes 1 octave lower
+1	All following notes are whole notes
+2	All following notes are half notes
+4	All following notes are quarter notes
+8	All following noter are eighth notes
+6	All following notes are sixteenth notes
+(	Play the following notes (up to 5) as a chord
+)	Indicates the end of a chord
+[flut]	Changes current instrument to flute
+[trum]	Changes current instrument to trumpet
+[clar]	Changes current instrument to clarinet
+[pian]	Changes current instrument to piano
+[holo]	Changes current instrument to holophoner
+X	End of the song (input files must end with this)
+
+Note that all input files must end with an 'X' character.
+ 
+See the included .music files for sample inputs.

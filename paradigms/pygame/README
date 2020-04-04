@@ -1,0 +1,13 @@
+Nathan Vahrenberg
+CSE30332 Programming Paradigms
+PyGame Primer
+15 April 2016
+
+Usage: $ python main.py
+
+Controls:
+	Arrow keys: Move
+	Space: Fire
+	Mouse: Aim
+
+Using the mouse to aim and space to fire, the goal is to hit the planet twice
